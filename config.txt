@@ -1,0 +1,30 @@
+PAGE_SIZE 50123
+NUM_PAGES 50
+PATH_FOR_DATA /tmp/
+BEGIN
+countries
+ID, integer
+CODE, varchar
+NAME, varchar
+CONTINENT, varchar
+PRIMARY_KEY ID
+END
+BEGIN
+department
+ID, integer
+CODE, varchar
+NAME, varchar
+CONTINENT, varchar
+PRIMARY_KEY ID
+END
+BEGIN
+airports
+ID, integer
+TYPE, varchar
+NAME, varchar
+LATITUDE, integer
+LONGITUDE, integer
+COUNTRY, varchar
+REGION, varchar
+PRIMARY_KEY ID
+END
